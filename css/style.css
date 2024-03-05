@@ -2,6 +2,13 @@
     font-family: Roboto;
 }
 
+body {
+    font-family: "Roboto", sans-serif;
+    color: #000;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
 header .address {
     height: 50px;
     gap: 17px;
@@ -13,6 +20,214 @@ header .address {
     font-weight: 500;
     line-height: 19px;
 }
+
+header .menuimage {
+    width: auto;
+    height: 275px;
+}
+
+header .linkpage {
+    background-color: white;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 2px 4px 0px #00000026;
+    width: 375px;
+    height: 63px;
+    gap: 10px;
+
+}
+
+header .linkpage h1 {
+    color: #101010;
+    font-family: Shrikhand;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 44px;
+    letter-spacing: 0em;
+    text-align: center;
+   
+    
+}
+
+header .linkpage .link {
+    padding-top: 17px;
+    padding-left: 17px;
+    width: 30px;
+    height: 30px;
+
+
+}
+
+.menu {
+    background: #F6F6F6;
+    margin: 0 auto;
+    border-radius: 25px;
+}
+
+.menu-title {
+    display: flex;
+    align-items: center;
+    color: #101010;
+    padding-top: 17px;
+    padding-left: 17px;
+    gap: 200px;
+}
+
+.menu-title h1 {
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000000;
+}
+
+.menu-title .like-icon {
+    height: 20px;
+    width: 35px;
+    position: relative;
+}
+
+.menu-title .empty-icon {
+    height: 21px;
+    width: 22px;
+    position: absolute;
+
+}
+
+.menu-title .filled-icon {
+    height: 21px;
+    width: 22px;
+    position: absolute;
+}
+
+.menu-content {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.foods {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin: 0px 20px 0px 20px;
+}
+
+.foods h3 {
+    display: flex;
+    align-items: flex-start;
+    border-bottom: 3px solid #99E2D0;
+    width: 40px;
+    padding-bottom: 10px;
+}
+
+.cards {
+    display: flex;
+    box-shadow: 0px 4.011494159698486px 15.043103218078613px 0px #0000001A;
+    background: #FFFFFF;
+    border-radius: 15px;
+}
+
+.cards .text {
+    padding: 15px;
+    gap: 5px;
+    width: 100%;
+}
+
+.cards .menu-description {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.cards .menu-description p {
+    flex: 0.9;
+}
+
+.cards .menu-description h5 {
+    display: flex;
+}
+
+.order-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.gradient-background {
+    background: linear-gradient(193.33deg, #9356DC -11.44%, #FF79DA 123.93%);
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 4px 10px 0px #00000040;
+    border: 1px;
+    border-radius: 25px;
+    color: white;
+    width: 186px;
+    height: 40px;
+    text-align: center;
+    margin-bottom: 50px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0em;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    padding: 22px 25px 22px 25px;
+    background: #353535;
+
+}
+
+footer h4 {
+    font-family: "shrikhand";
+    color: white;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer-link {
+    text-decoration: none;
+}
+
+footer .suggestions {
+    width: 190px;
+    height: 19px;
+}
+
+footer .suggestions i {
+    color: white;
+}
+
+footer .partner {
+    width: 190px;
+    height: 19px;
+}
+
+footer .partner i {
+    color: white;
+}
+
 
 .browsing-section {
     display: Flex;
@@ -82,7 +297,6 @@ h2 {
     padding: 20px 0px;
 }
 
-.bttns {}
 
 .buttons {
     width: 335px;
