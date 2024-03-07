@@ -193,6 +193,9 @@ footer {
 }
 
 footer h4 {
+    display:flex;
+    padding:10px;
+    margin:0;
     font-family: "shrikhand";
     color: white;
     font-weight: 400;
@@ -207,7 +210,14 @@ footer a {
 }
 
 .footer-link {
-    text-decoration: none;
+    text-decoration: none;  
+}
+
+.linkbox {
+display:flex;
+flex-direction: column;
+gap:7px;
+padding:10px;
 }
 
 footer .suggestions {
