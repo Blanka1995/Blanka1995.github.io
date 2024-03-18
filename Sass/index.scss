@@ -1,194 +1,46 @@
-body {
-
-}
-
-header .address{
-    height:50px;
-    gap:17px;
-    display:Flex;
-    justify-content: center;
-    align-items: center;
-    font-family: Roboto;
-    font-size: 16px;
-    font-family: 500;
-    line-height: 19px;
-}
-
-section1.h2{
-
-}
+@import 'variables.scss';
 
 * {
-    font-family: Roboto;
+  font-family: $font-roboto;
+  box-sizing: border-box;
 }
 
-header .address {
-    height: 50px;
-    gap: 17px;
-    display: Flex;
-    justify-content: center;
-    align-items: center;
-    font-family: Roboto;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 19px;
+body {
+  font-family: $font-roboto;
+  color: $text-color;
+  max-width: 1400px;
+  margin: 0 auto;
 }
 
 .browsing-section {
-    display: Flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    background-color: #F6F6F6;
-}
+  display: Flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: $background-grey2;
 
-h2 {
-    height: 68px;
-    display: Flex;
-    font-family: Roboto;
-    font-size: 24px;
-    font-weight: 700;
-    line-height: 28px;
-    letter-spacing: 0em;
-    text-align: center;
-    color: #000000;
-
-}
-
-.browsing-section p {
+  p {
     height: 46px;
     top: 220px;
     left: 34px;
-    font-family: Roboto;
+    font-family: $font-roboto;
     font-size: 18px;
     font-weight: 300;
     line-height: 21px;
     letter-spacing: 0em;
     text-align: center;
-}
+  }
 
-.options {
-    border-radius: 25px;
-    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
-    border: 1px;
-    color: white;
-    width: 218px;
-    height: 50px;
-    text-align: center;
-    font-size: 16px;
-    margin-bottom: 57px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: linear-gradient(to top, #9356DC, #FF79DA);
-}
-
-.instruction-section {
-    background-color: #F6F6F6;
-}
-
-.instruction-section h2 {
-    height: 31px;
-    height: 31px;
-    top: 448px;
-    left: 20px;
-    font-family: Roboto;
-    font-size: 24px;
+  h2 {
+    height: 68px;
+    display: Flex;
+    font-family: $font-roboto;
+    font-size: 40px;
     font-weight: 700;
-    line-height: 28px;
+    line-height: 47px;
     letter-spacing: 0em;
-    text-align: left;
-    padding: 20px 0px;
+    text-align: center;
+    color: $text-color;
+  }
 }
-
-.bttns {}
-
-.buttons {
-    width: 335px;
-    height: 72.38px;
-    border-radius: 20px;
-    background: #F6F6F6;
-    box-shadow: 0px 4px 15px 0px #00000026;
-    border: 1px;
-    display: flex;
-    align-items: center;
-    left: 32.51px;
-    margin: 23px;
-    font-family: Roboto;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 19px;
-    letter-spacing: 0em;
-    text-align: left;
-    color: black;
-
-}
-
-.cards {
-    display: flex;
-    gap: 18px;
-    flex-direction: column;
-
-}
-
-.card {
-    width: auto;
-    height: 251px;
-    border-radius: 15px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 18px;
-    position: relative;
-    box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.15);
-}
-
-.card-content {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.card-text {
-    padding-left: 10px;
-    padding-bottom: 10px;
-
-}
-
-.cards .card-content .heart-button {
-    position: relative;
-    height: 21px;
-    width: 22px;
-}
-
-.cards a {
-    color: #000000;
-    text-decoration: none;
-}
-
-footer {
-    background-color: #353535;
-    padding: 22px 25px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 16px;
-}
-
-footer {
-    gap: 7px;
-}
-
-footer a {
-    text-decoration: none;
-    color: white;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 19px;
-    letter-spacing: 0em;
-    text-align: left;
-
-}
-

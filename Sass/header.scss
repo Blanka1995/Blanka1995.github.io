@@ -1,4 +1,70 @@
-/*header color*/
+@import 'variables.scss';
+//Logo//
+
+.logotitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    box-shadow: 0px 2px 4px 0px #00000026;
+    border: 1px;
+    background-color: $background-white;
+}
+
+.logotitle img {
+    object-fit: cover;
+    width: 100%;
+}
+
+//header//
+
 header {
-    background-color: blue;
+
+    .address {
+        height: 50px;
+        gap: 17px;
+        display: Flex;
+        justify-content: center;
+        align-items: center;
+        font-family: $font-roboto;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 19px;
+        background: $background-grey1;
+    }
+
+    .linkpage {
+        background-color: $background-white;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 0px 2px 4px 0px #00000026;
+        gap: 10px;
+
+        h1 {
+            color: #101010;
+            font-family: $font-shrikhand;
+            font-size: 30px;
+            font-style: italic;
+            font-weight: 400;
+            line-height: 44px;
+            letter-spacing: 0em;
+            text-align: center;
+        }
+
+
+    }
+}
+
+@media screen and (min-width: 1024px) {
+
+    .logotitle img {
+        width: 200px;
+    }
+
+    .linkpage {
+        gap: 562px;
+    }
 }

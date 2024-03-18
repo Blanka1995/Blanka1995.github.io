@@ -1,0 +1,137 @@
+@import 'variables.scss';
+
+//card//
+
+.cards {
+    box-shadow: 0px 4.011494159698486px 15.043103218078613px 0px #0000001a;
+    background: $background-white;
+    border-radius: 15px;
+}
+
+.menu-cards {
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    display: flex;
+    background: $background-white;
+    border-radius: 15px;
+    box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.1);
+    border: 1px;
+    width: 100%;
+    height: 90px;
+
+    .text {
+        padding: 15px;
+        width: 100%;
+
+        h4 {
+            font-family: $font-roboto;
+            font-size: 18px;
+            font-weight: 500;
+            line-height: 21px;
+            letter-spacing: 0em;
+            text-align: left;
+            margin: 0;
+        }
+    }
+
+    .menu-description {
+        display: flex;
+        align-items: center;
+
+        p {
+            font-family: $font-roboto;
+            font-size: 15px;
+            font-weight: 300;
+            line-height: 18px;
+            letter-spacing: 0em;
+            text-align: left;
+            margin: 0;
+            flex: 0.9;
+        }
+
+        h5 {
+            display: flex;
+        }
+    }
+}
+
+.restaurants {
+    padding: 20px;
+}
+
+.card {
+    width: 100%;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.15);
+    position: relative;
+
+    img {
+        width: 100%;
+    }
+
+    .tag {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        background-color: $color-green;
+        color: $background-white;
+        padding: 10px 20px;
+        border-radius: 6px;
+    }
+}
+
+.card-content {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+
+    .heart-button {
+        position: relative;
+        height: 21px;
+        width: 22px;
+    }
+}
+
+.card-text h3,
+.card-text p {
+    margin: 0;
+    margin-bottom: 8px;
+}
+
+
+.cards {
+    box-shadow: 0px 4.011494159698486px 15.043103218078613px 0px #0000001a;
+    background: $background-white;
+    border-radius: 15px;
+
+    a {
+        color: $text-color;
+        text-decoration: none;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .instruction-section .bttns {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 50px;
+    }
+
+    .restaurants .cards {
+        gap: 30px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .restaurants .cards a {
+        flex: 1 1 45%;
+    }
+}
