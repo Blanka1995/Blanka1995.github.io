@@ -2,142 +2,154 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="css/style.css">
-    <title>OhMyFood</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Shrikhand&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Shrikhand&display=swap"
+    rel="stylesheet">
+  <script src="https://kit.fontawesome.com/6d654f38c0.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css/main.css">
+  <title>OhMyFood</title>
 </head>
 
 <body>
+  <div class="logotitle">
+    <img src="./images/logo/ohmyfood.png" alt="Ohmyfood logo">
+  </div>
 
-    <img src=".\images\logo\ohmyfood.png" alt="Ohmyfood logo">
+  <header>
+    <div class="address">
+      <i class="fa-solid fa-location-dot"></i>
+      <p>London, Islington</p>
+    </div>
+  </header>
 
-    <header>
-        <div class="address">
-            <i class="fa-solid fa-location-dot"></i>
-            <p>London, Islington</p>
+  <section class="browsing-section">
+    <h2>Book the meal that you want</h2>
+    <p>Discover our carefully selected high-end restaurants</p>
+    <a href="#link-section">
+      <div class="options">Explore our restaurants</div>
+    </a>
+  </section>
+
+  <section class="instruction-section">
+    <h2>How it works</h2>
+    <div class="bttns">
+      <button class="buttons">
+        <span class="circle">1</span><i class="fa-solid fa-mobile-screen-button"></i>
+        <span>Choose a restaurant</span>
+      </button>
+      <button class="buttons">
+        <span class="circle">2</span><i class="fa-solid fa-list-ul"></i>
+        <span>Build your meal</span>
+      </button>
+      <button class="buttons">
+        <span class="circle">3</span><i class="fa-solid fa-store"></i>
+        <span>Enjoy your meal at the restaurant</span>
+      </button>
+    </div>
+  </section>
+
+  <section class="restaurants" id="link-section">
+    <h2>Restaurants</h2>
+    <div class="cards">
+      <a href="./menu-Kitchen-West.html">
+        <article class="card">
+          <img src="./images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.png"
+            alt="plate presentation filled with food">
+          <div class="card-content">
+            <div class="card-text">
+              <h3>Kitchen West</h3>
+              <p>Angel</p>
+            </div>
+            <div class="heart-button">
+              <img class="empty-icon" src="./images/restaurants/Like.png" alt="heart empty icon">
+              <img class="filled-icon" src="./images/restaurants/Like1.png" alt="colored heart icon">
+            </div>
+          </div>
+          <div class="tag">New</div>
+        </article>
+      </a>
+      <a href="./menu-Elderflower.html">
+        <div class="card">
+          <img src="./images/restaurants/stil-u2Lp8tXIcjw-unsplash.png" alt="plate presentation filled with food">
+          <div class="card-content">
+            <div class="card-text">
+              <h3>Elderflower</h3>
+              <p>Old street</p>
+            </div>
+            <div class="heart-button">
+              <img class="empty-icon" src="./images/restaurants/Like.png" alt="heart empty icon">
+              <img class="filled-icon" src="./images/restaurants/Like1.png" alt="colored heart icon">
+            </div>
+          </div>
+          <div class="tag">New</div>
         </div>
-    </header>
-
-    </header>
-
-    <section1 class="browsing-section">
-        <h2>Book the meal that you want</h2>
-        <p>Discover our carefully selected high-end restaurants</p>
-        <div class="options">Explore our restaurants</div>
-    </section1>
-
-    <section2 class="instruction-section">
-        <h2>How it works</h2>
-        <div class="bttns">
-            <button class="buttons">
-                Choose a restaurant
-            </button>
-            <button class="buttons">
-                Build your meal
-            </button>
-            <button class="buttons">
-                Enjoy your meal at the restaurant
-            </button>
+      </a>
+      <a href="./menu-Shoreditch-Canteen.html">
+        <div class="card">
+          <img src="./images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.png"
+            alt="plate presentation filled with food">
+          <div class="card-content">
+            <div class="card-text">
+              <h3>Shoreditch Canteen</h3>
+              <p>Shoreditch</p>
+            </div>
+            <div class="heart-button">
+              <img class="empty-icon" src="./images/restaurants/Like.png" alt="heart empty icon">
+              <img class="filled-icon" src="./images/restaurants/Like1.png" alt="colored heart icon">
+            </div>
+          </div>
+          <div class="tag">New</div>
         </div>
-    </section2>
-
-    <section3 class="restaurants">
-        <div>
-            <h2>Restaurants</h2>
-            <div class="cards">
-
-                <a href="">
-                    <div class="card">
-                        <img src=".\images\restaurants\jay-wennington-N_Y88TWmGwA-unsplash.png">
-                        <div class="card-content">
-                            <div class="card-text">
-                                <h3>Kitchen West</h3>
-                                <p>Angel</p>
-                            </div>
-                            <div class="heart-button">
-                                <img src=".\images\restaurants\Like.png">
-                            </div>
-                        </div>
-                        <div class="tag">New</div>
-                    </div>
-                </a>
-                <a href="">
-                    <div class="card">
-                        <img src=".\images\restaurants\stil-u2Lp8tXIcjw-unsplash.png">
-                        <div class="card-content">
-                            <div class="card-text">
-                                <h3>Elderflower</h3>
-                                <p>Old street</p>
-                            </div>
-                            <div class="heart-button">
-                                <img src=".\images\restaurants\Like.png">
-                            </div>
-                        </div>
-                        <div class="tag">New</div>
-                    </div>
-                </a>
-                <a href="">
-                    <div class="card">
-                        <img src=".\images\restaurants\toa-heftiba-DQKerTsQwi0-unsplash.png">
-                        <div class="card-content">
-                            <div class="card-text">
-                                <h3>Shoreditch Canteen</h3>
-                                <p>Shoreditch</p>
-                            </div>
-                            <div class="heart-button">
-                                <img src=".\images\restaurants\Like.png">
-                            </div>
-                        </div>
-                        <div class="tag">New</div>
-                    </div>
-                </a>
-                <a href="">
-                    <div class="card">
-                        <img src=".\images\restaurants\louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.png">
-                        <div class="card-content">
-                            <div class="card-text">
-                                <h3>The Bay Leaf</h3>
-                                <p>Hoxton</p>
-                            </div>
-                            <div class="heart-button">
-                                <img src=".\images\restaurants\Like.png">
-                            </div>
-                        </div>
-                        <div class="tag">New</div>
-                    </div>
-                </a>
+      </a>
+      <a href="./menu-The-Bay-Leaf.html">
+        <div class="card">
+          <img src="./images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.png"
+            alt="plate presentation filled with food">
+          <div class="card-content">
+            <div class="card-text">
+              <h3>The Bay Leaf</h3>
+              <p>Hoxton</p>
+            </div>
+            <div class="heart-button">
+              <img class="empty-icon" src="./images/restaurants/Like.png" alt="heart empty icon">
+              <img class="filled-icon" src="./images/restaurants/Like1.png" alt="colored heart icon">
 
             </div>
+          </div>
+          <div class="tag">New</div>
         </div>
-        <!--Add cards here for resturant choices-->
-    </section3>
-    <footer>
-        <img src=".\images\logo\footer.logo.png" alt="Oh My food text">
-        <a href="#">
-            <div>
-                <p>Suggest a resturant</p>
-            </div>
-        </a>
+      </a>
+    </div>
+    <!--Add cards here for resturant choices-->
+  </section>
 
-        <a href="#">
-            <div>
-                <p>Become a partner</p>
-            </div>
-        </a>
-        <a href="#">
-            <div>
-                <p>Legal notice</p>
-            </div>
-        </a>
-        <a href="#">
-            <div>
-                <p>Contact</p>
-            </div>
-        </a>
-    </footer>
+  <footer>
+    <h4>ohmyfood</h4>
+    <a href="#" class="footer-link">
+      <div class="suggestions">
+        <i class="fa-solid fa-utensils"></i> Suggest a restaurant
+      </div>
+    </a>
+
+    <a href="#" class="footer-link">
+      <div class="partner">
+        <i class="fa-solid fa-handshake-angle"></i> Become a partner
+      </div>
+    </a>
+
+    <a href="#" class="footer-link">
+      <div>Legal notice</div>
+    </a>
+
+    <a href="#" class="footer-link">
+      <div>Contact</div>
+    </a>
+  </footer>
 </body>
 
 </html>
