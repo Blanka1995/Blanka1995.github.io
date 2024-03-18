@@ -70,53 +70,76 @@
             transform: rotateZ(180deg);
   }
 }
-* {
-  font-family: "roboto";
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-}
-
-body {
-  font-family: "roboto";
-  color: #000000;
-  max-width: 1400px;
-  margin: 0 auto;
-}
-
-.browsing-section {
-  display: Flex;
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  text-align: center;
-  background-color: #F6F6F6;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  gap: 16px;
+  padding: 22px 25px 22px 25px;
+  background-color: #353535;
 }
-.browsing-section p {
-  height: 46px;
-  top: 220px;
-  left: 34px;
-  font-family: "roboto";
+footer h4 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 10px;
+  margin: 0;
+  font-family: "shrikhand";
+  color: white;
+  font-weight: 400;
+  font-style: italic;
   font-size: 18px;
-  font-weight: 300;
-  line-height: 21px;
-  letter-spacing: 0em;
-  text-align: center;
+  line-height: 27px;
 }
-.browsing-section h2 {
-  height: 68px;
-  display: Flex;
-  font-family: "roboto";
-  font-size: 40px;
-  font-weight: 700;
-  line-height: 47px;
+footer a {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
   letter-spacing: 0em;
-  text-align: center;
-  color: #000000;
+  text-align: left;
+}
+footer .suggestions {
+  width: 190px;
+  height: 19px;
+}
+footer .suggestions i {
+  color: white;
+}
+footer .partner {
+  width: 190px;
+  height: 19px;
+}
+footer .partner i {
+  color: white;
+}
+
+.footer_link {
+  text-decoration: none;
+}
+
+@media screen and (min-width: 1024px) {
+  footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
 }
