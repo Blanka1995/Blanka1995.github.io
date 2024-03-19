@@ -48,7 +48,7 @@
     width: 22px;
     position: absolute;
     border-radius: unset;
-    opacity: 0;
+    opacity: 100;
     transition: opacity 0.5s;
 }
 
@@ -57,7 +57,7 @@
     width: 22px;
     position: absolute;
     border-radius: unset;
-    opacity: 100;
+    opacity: 0;
     transition: opacity 0.5s;
 
 }

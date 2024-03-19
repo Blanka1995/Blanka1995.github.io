@@ -119,7 +119,7 @@
   width: 22px;
   position: absolute;
   border-radius: unset;
-  opacity: 0;
+  opacity: 100;
   -webkit-transition: opacity 0.5s;
   transition: opacity 0.5s;
 }
@@ -129,7 +129,7 @@
   width: 22px;
   position: absolute;
   border-radius: unset;
-  opacity: 100;
+  opacity: 0;
   -webkit-transition: opacity 0.5s;
   transition: opacity 0.5s;
 }
