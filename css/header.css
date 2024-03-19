@@ -2,111 +2,95 @@
   0% {
     opacity: 0;
   }
-
   100% {
     opacity: 1;
   }
 }
-
 @keyframes fadeIn {
   0% {
     opacity: 0;
   }
-
   100% {
     opacity: 1;
   }
 }
-
 @-webkit-keyframes fadeOut {
   0% {
     opacity: 1;
   }
-
   100% {
     opacity: 0;
   }
 }
-
 @keyframes fadeOut {
   0% {
     opacity: 1;
   }
-
   100% {
     opacity: 0;
   }
 }
-
 @-webkit-keyframes rotateIn {
   0% {
     -webkit-transform: rotateZ(180deg);
-    transform: rotateZ(180deg);
+            transform: rotateZ(180deg);
   }
-
   100% {
     -webkit-transform: rotateZ(0deg);
-    transform: rotateZ(0deg);
+            transform: rotateZ(0deg);
   }
 }
-
 @keyframes rotateIn {
   0% {
     -webkit-transform: rotateZ(180deg);
-    transform: rotateZ(180deg);
+            transform: rotateZ(180deg);
   }
-
   100% {
     -webkit-transform: rotateZ(0deg);
-    transform: rotateZ(0deg);
+            transform: rotateZ(0deg);
   }
 }
-
 @-webkit-keyframes rotateOut {
   0% {
     -webkit-transform: rotateZ(0deg);
-    transform: rotateZ(0deg);
+            transform: rotateZ(0deg);
   }
-
   100% {
     -webkit-transform: rotateZ(180deg);
-    transform: rotateZ(180deg);
+            transform: rotateZ(180deg);
   }
 }
-
 @keyframes rotateOut {
   0% {
     -webkit-transform: rotateZ(0deg);
-    transform: rotateZ(0deg);
+            transform: rotateZ(0deg);
   }
-
   100% {
     -webkit-transform: rotateZ(180deg);
-    transform: rotateZ(180deg);
+            transform: rotateZ(180deg);
   }
 }
-
 .logotitle {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   padding-bottom: 30px;
   padding-top: 30px;
   -webkit-box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1490196078);
-  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1490196078);
+          box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1490196078);
   border: 1px;
   background-color: white;
 }
 
 .logotitle img {
   -o-object-fit: cover;
-  object-fit: cover;
+     object-fit: cover;
   width: 100%;
 }
 
@@ -115,18 +99,17 @@ header .address {
   gap: 17px;
   display: Flex;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   font-family: "roboto";
   font-size: 16px;
   font-weight: 500;
   line-height: 19px;
   background: #EAEAEA;
 }
-
 header .linkpage {
   background-color: white;
   width: 100%;
@@ -134,16 +117,15 @@ header .linkpage {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1490196078);
-  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1490196078);
+          box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1490196078);
   gap: 10px;
 }
-
 header .linkpage h1 {
   color: #101010;
   font-family: "shrikhand";
@@ -159,7 +141,6 @@ header .linkpage h1 {
   .logotitle img {
     width: 200px;
   }
-
   .linkpage {
     gap: 562px;
   }
