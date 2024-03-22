@@ -130,6 +130,83 @@
   }
 }
 
+.loader {
+  position: fixed;
+  inset: 0;
+  z-index: 2;
+  height: 100%;
+  -webkit-animation: loaderAnimation 2s forwards;
+  animation: loaderAnimation 2s forwards;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  background: #F6F6F6;
+  -webkit-transition: opacity 2s, visibility 2s;
+  transition: opacity 2s, visibility 2s;
+}
+
+.loader::after {
+  content: "";
+  width: 75px;
+  height: 65px;
+  border: 15px solid #99E2D0;
+  border-top-color: #99E2D0;
+  -webkit-animation: loadingStyle 2s ease infinite;
+  animation: loadingStyle 2s ease infinite;
+}
+
+@-webkit-keyframes loadingStyle {
+  from {
+    -webkit-transform: rotate(0turn);
+    transform: rotate(0turn);
+  }
+
+  to {
+    -webkit-transform: rotate(1turn);
+    transform: rotate(1turn);
+  }
+}
+
+@keyframes loadingStyle {
+  from {
+    -webkit-transform: rotate(0turn);
+    transform: rotate(0turn);
+  }
+
+  to {
+    -webkit-transform: rotate(1turn);
+    transform: rotate(1turn);
+  }
+}
+
+@-webkit-keyframes loaderAnimation {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+@keyframes loaderAnimation {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
 .animate {
   opacity: 0;
   -webkit-transform: translateY(20px);
@@ -335,10 +412,6 @@ header .linkpage h1 {
 @media screen and (min-width: 1024px) {
   .logotitle img {
     width: 200px;
-  }
-
-  .linkpage {
-    gap: 562px;
   }
 }
 
@@ -924,17 +997,26 @@ body {
   -webkit-transform: translateY(-35px);
   transform: translateY(-35px);
   margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: baseline;
+  -ms-flex-align: baseline;
+  align-items: baseline;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 .menu-title h2 {
   padding-top: 30px;
-  padding-left: 10px;
   font-family: "shrikhand";
   font-size: 28px;
   font-style: italic;
   font-weight: 400;
   line-height: 41px;
-  color: rgb(16, 16, 16);
+  color: #000000;
+  margin-right: 75px;
 }
 
 .menu-title .like-icon {
@@ -1013,15 +1095,9 @@ body {
 }
 
 @media screen and (min-width: 1024px) {
-  .menu-title h1 {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    -ms-flex-line-pack: center;
-    align-content: center;
+  .menu-title h2 {
+    padding-left: 10px;
+    margin-right: 40px;
   }
 }
 

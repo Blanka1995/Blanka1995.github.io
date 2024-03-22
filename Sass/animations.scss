@@ -1,5 +1,48 @@
 @import'variables.scss';
 
+.loader {
+    position: fixed;
+    inset: 0;
+    z-index: 2;
+    height: 100%;
+    animation: loaderAnimation 2s forwards;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #F6F6F6;
+    transition: opacity 2s, visibility 2s;
+}
+
+.loader::after {
+    content: "";
+    width: 75px;
+    height: 65px;
+    border: 15px solid #99E2D0;
+    border-top-color: #99E2D0;
+    animation: loadingStyle 2s ease infinite;
+}
+
+@keyframes loading {
+    from {
+        transform: rotate(0turn)
+    }
+
+    to {
+        transform: rotate(1turn)
+    }
+}
+
+@keyframes loaderAnimation {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+
 .animate {
     opacity: 0;
     transform: translateY(20px);

@@ -97,16 +97,25 @@
   -webkit-transform: translateY(-35px);
           transform: translateY(-35px);
   margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 .menu-title h2 {
   padding-top: 30px;
-  padding-left: 10px;
   font-family: "shrikhand";
   font-size: 28px;
   font-style: italic;
   font-weight: 400;
   line-height: 41px;
-  color: rgb(16, 16, 16);
+  color: #000000;
+  margin-right: 75px;
 }
 .menu-title .like-icon {
   height: 20px;
@@ -182,14 +191,8 @@
 }
 
 @media screen and (min-width: 1024px) {
-  .menu-title h1 {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -ms-flex-line-pack: center;
-        align-content: center;
+  .menu-title h2 {
+    padding-left: 10px;
+    margin-right: 40px;
   }
 }
