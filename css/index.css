@@ -120,3 +120,6 @@ body {
   text-align: center;
   color: #000000;
 }
+.browsing-section a {
+  text-decoration: none;
+}
